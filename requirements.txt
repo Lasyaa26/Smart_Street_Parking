@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+requests
+opencv-python
+easyocr
+streamlit
+python-multipart
