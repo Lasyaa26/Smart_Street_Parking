@@ -43,35 +43,31 @@ This solution falls under the **Smart Automation** theme of the Smart India Hack
 ## 📂 Project Structure
 ```
 
-Smart\_Street\_Parking/
+Smart_Street_Parking/
 │
 ├── backend/
-│   ├── main.py                 # FastAPI entry point
-│   ├── database.py             # Database connection
-│   ├── models.py               # Database models
-│   ├── routes/
-│   │   ├── parking.py          # Parking-related APIs
-│   │   └── booking.py          # Booking APIs
-│   ├── services/
-│   │   ├── pricing.py          # Dynamic pricing logic
-│   │   └── anpr.py             # Number plate recognition
-│   ├── utils/
-│   │   └── helpers.py          # Helper functions
+│ ├── main.py
+│ ├── database.py
+│ ├── models.py
+│ ├── routes/
+│ │ ├── parking.py
+│ │ └── booking.py
+│ ├── services/
+│ │ ├── pricing.py
+│ │ └── anpr.py
+│ ├── utils/
+│ └── helpers.py
 │
 ├── frontend/
-│   ├── index.html              # Main UI page
-│   ├── app.js                  # Frontend logic
-│   ├── styles.css              # Styling
+│ └── streamlit_app.py
 │
-├── tests/                      # Unit tests
-│   ├── test\_parking.py
-│   ├── test\_booking.py
+├── tests/
+│ ├── test_parking.py
+│ ├── test_booking.py
 │
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-
-````
 
 ---
 
@@ -135,5 +131,15 @@ Open `frontend/index.html` in your browser.
 * [ ] Dynamic pricing logic using Weather API
 * [ ] Payment gateway simulation
 * [ ] IoT hardware integration (optional for prototype)
+
+---
+
+## Future Enhancements
+- Mobile app integration for Android & iOS  
+- AI-based parking demand prediction  
+- Push notifications for booking reminders  
+- Integrated online payment gateway  
+- Live traffic and navigation assistance  
+- Weather-aware dynamic pricing adjustments  
 
 ---
